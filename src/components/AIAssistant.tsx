@@ -20,7 +20,7 @@ const AIAssistant = ({ topicTitle }) => {
   // --- Gemini API Configuration ---
   // IMPORTANT: Replace with your actual key if running locally for testing.
   // Otherwise, leave as-is for the Canvas environment to inject.
-  const GEMINI_API_KEY = "AIzaSyB6LYh5C7jaczlyr9L2edOUUBT1BNhyeRQ"; // PASTE YOUR KEY HERE FOR LOCAL TESTING
+  const GEMINI_API_KEY = ""; // PASTE YOUR KEY HERE FOR LOCAL TESTING
   const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${GEMINI_API_KEY}`;
   
   // --- Utility for Exponential Backoff ---
